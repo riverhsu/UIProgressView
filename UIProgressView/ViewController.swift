@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var timeTapped : Float = 0.0
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() 
         // Do any additional setup after loading the view, typically from a nib.
         self.timeTapped = 0
         self.progressView.progress = 0
